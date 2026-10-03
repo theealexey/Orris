@@ -120,3 +120,16 @@ Before committing:
 
 Do not push, merge, tag, rewrite history, or amend unrelated history unless
 the task explicitly authorizes that action.
+
+## 7. Repository Hygiene
+
+Generated and user-specific files must not enter commits. The repository-local
+`.gitignore` defines Orris's known generated-file and user-local ignore policy;
+global Git ignore or configuration is not a substitute for repository policy.
+Inspect unexpected untracked files found during preflight before any deletion
+or cleanup. Codex must never automatically delete an unexpected user file just
+because it is untracked.
+
+Shared Xcode project configuration, `xcshareddata`, and shared schemes remain
+version-controlled. `Package.resolved` remains version-controlled for the
+Orris application when Swift Package dependencies are introduced.
