@@ -9,6 +9,7 @@
 		A10000000000000000000001 /* OrrisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* OrrisApp.swift */; };
 		A10000000000000000000002 /* IOSBootstrapRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* IOSBootstrapRootView.swift */; };
 		A10000000000000000000003 /* MacOSBootstrapRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* MacOSBootstrapRootView.swift */; };
+		A10000000000000000000004 /* OrrisDesignBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* OrrisDesignBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		A20000000000000000000002 /* IOSBootstrapRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSBootstrapRootView.swift; sourceTree = "<group>"; };
 		A20000000000000000000003 /* MacOSBootstrapRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSBootstrapRootView.swift; sourceTree = "<group>"; };
 		A20000000000000000000004 /* Orris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000005 /* OrrisDesignBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrrisDesignBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A40000000000000000000005 /* iOS */,
 				A40000000000000000000006 /* macOS */,
+				A40000000000000000000008 /* DesignBoard */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -76,6 +79,12 @@
 			isa = PBXGroup;
 			children = (A20000000000000000000004 /* Orris.app */);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000008 /* DesignBoard */ = {
+			isa = PBXGroup;
+			children = (A20000000000000000000005 /* OrrisDesignBoardView.swift */);
+			path = DesignBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +150,7 @@
 				A10000000000000000000001 /* OrrisApp.swift in Sources */,
 				A10000000000000000000002 /* IOSBootstrapRootView.swift in Sources */,
 				A10000000000000000000003 /* MacOSBootstrapRootView.swift in Sources */,
+				A10000000000000000000004 /* OrrisDesignBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
